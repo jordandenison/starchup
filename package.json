@@ -1,0 +1,19 @@
+{
+  "name": "starchup",
+  "description": "Google Maps API code challenge",
+  "version": "0.0.1",
+  "author": "Jordan Denison",
+  "main": "src/index.js",
+  "license": "MIT",
+  "scripts": {
+    "lint": "standard --fix src/",
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "superagent": "^5.1.0"
+  },
+  "devDependencies": {
+    "standard": "^13.1.0"
+  }
+}
